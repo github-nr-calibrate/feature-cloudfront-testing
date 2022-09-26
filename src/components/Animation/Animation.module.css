@@ -1,0 +1,146 @@
+/* Essential Classes */
+@media (prefers-reduced-motion: no-preference) {
+  .animated {
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+  }
+}
+
+.animatedHidden {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animatedHidden {
+    opacity: 1;
+  }
+}
+
+/* Fade In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+}
+
+/* Fade Out */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-timing-function: ease-in;
+}
+
+/* Grow In */
+@keyframes growIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.growIn {
+  animation-name: growIn;
+  transform-origin: center;
+  animation-timing-function: ease-out;
+}
+
+/* Reveal */
+@keyframes reveal {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(1px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+      overflow: hidden;
+    }
+  
+    .reveal>* {
+      animation-name: reveal;
+    }
+  
+    .reveal.animated>* {
+      animation-duration: 0.8s;
+      animation-fill-mode: both;
+    }
+}
+
+/* Reveal Left*/
+@keyframes reveal-left {
+  from {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.revealLeft {
+  animation-name: reveal-left;
+}
+
+/* Rotate */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  transform-origin: center;
+  animation: rotate 12s infinite linear;
+}
+
+/* Fade In */
+@keyframes fadeInBasic {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInBasic {
+  animation-name: fadeInBasic;
+  animation-timing-function: ease-out;
+}

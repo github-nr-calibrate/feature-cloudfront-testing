@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+# Attempt to solve the noindex problem (see GROW-280)
+Allow: /lp/medication
+Disallow: /api/
+Disallow: /app/
+Disallow: /poc/

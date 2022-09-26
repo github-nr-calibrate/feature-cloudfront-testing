@@ -1,0 +1,19 @@
+[build]
+  command = "npm run export"
+  publish = "out"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+[plugins.inputs]
+buildDir = "out"
+
+[context.production.environment]
+  NEXT_PUBLIC_GTM_AUTH = "mh8uksuKllzhp7nLqZQl7A"
+  NEXT_PUBLIC_GTM_PREVIEW = "env-1"
+
+[context.branch-deploy.environment]
+  NEXT_PUBLIC_ENVIRONMENT = "production"
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_ENVIRONMENT = "development"

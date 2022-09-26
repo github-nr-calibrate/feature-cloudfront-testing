@@ -1,0 +1,102 @@
+/* Graphik */
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src:
+    url("/fonts/Graphik-Regular-Web.woff2") format("woff2"),
+    url("/fonts/Graphik-Regular-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 500;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Medium';
+  src:
+    url("/fonts/Graphik-Medium-Web.woff2") format("woff2"),
+    url("/fonts/Graphik-Medium-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 600;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Semibold';
+  src:
+    url("/fonts/Graphik-Semibold-Web.woff2") format("woff2"),
+    url("/fonts/Graphik-Semibold-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: 700;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Bold';
+  src:
+    url("/fonts/Graphik-Bold-Web.woff2") format("woff2"),
+    url("/fonts/Graphik-Bold-Web.woff") format("woff");
+}
+
+/* Caslon */
+
+@font-face {
+  font-family: 'Caslon Doric Condensed';
+  font-weight: 400;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src:
+    url("/fonts/CaslonDoricCondensed-Regular-Web.woff2") format("woff2"),
+    url("/fonts/CaslonDoricCondensed-Regular-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Caslon Doric Condensed';
+  font-weight: 500;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Medium';
+  src:
+    url("/fonts/CaslonDoricCondensed-Medium-Web.woff2") format("woff2"),
+    url("/fonts/CaslonDoricCondensed-Medium-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Caslon Doric Condensed';
+  font-weight: 600;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Semibold';
+  src:
+    url("/fonts/CaslonDoricCondensed-Semibold-Web.woff2") format("woff2"),
+    url("/fonts/CaslonDoricCondensed-Semibold-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Caslon Doric Condensed';
+  font-weight: 700;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Bold';
+  src:
+    url("/fonts/CaslonDoricCondensed-Bold-Web.woff2") format("woff2"),
+    url("/fonts/CaslonDoricCondensed-Bold-Web.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Caslon Doric Condensed';
+  font-weight: 800;
+  font-display: auto;
+  font-style: normal;
+  font-named-instance: 'Extrabold';
+  src:
+    url("/fonts/CaslonDoricCondensed-Extrabold-Web.woff2") format("woff2"),
+    url("/fonts/CaslonDoricCondensed-Extrabold-Web.woff") format("woff");
+}
